@@ -1,0 +1,10 @@
+POST /oauth2/token HTTP/1.1
+    Host: api.netatmo.com
+    Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+
+    grant_type=password
+    client_id=[5bae0cf88c04c450ef8c06e8]
+    client_secret=[NoJmkWyoRaf52Jvvxml5WBFNfn4SitZ7EW]
+    username=[rtld81@gmail.com]
+    password=[Aisha2015]
+    scope=[read_station]
